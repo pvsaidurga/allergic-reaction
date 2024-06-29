@@ -6,7 +6,7 @@ from getIngrediateDetails import extract_ingredients
 from summerizeTheDetails import summerize
 import os
 app = Flask(__name__)
-subscription_key = "1d57401c18f347d180f929df08e44791"
+subscription_key = ""
 endpoint = "https://enterprisesearch.cognitiveservices.azure.com/"
 connection_string = 'DefaultEndpointsProtocol=https;AccountName=rgchatbotapplicatioac41;AccountKey=7q4zhfY8SUukPc9ojqx9IaZ21/7VHpRtiXY+oIto+iwfZGTByjWEp3+udr8TBBOVQ7yEcb//ACzc+AStNlsPXQ==;EndpointSuffix=core.windows.net'
 blob_name = 'rgchatbotapplicatioac41' # You can use the image file name or any other desired name

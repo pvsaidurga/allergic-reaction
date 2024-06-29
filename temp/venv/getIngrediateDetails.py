@@ -4,7 +4,7 @@ import openai
 openai.api_type = "azure"
 openai.api_base = "https://openai-test-infy1.openai.azure.com/"
 openai.api_version = "2024-02-01"
-openai.api_key = "2977d4e5b8e649f3bcfc5ebd03b44e60"
+openai.api_key = ""
 def extract_ingredients(text):
     print(text)
     messages = [

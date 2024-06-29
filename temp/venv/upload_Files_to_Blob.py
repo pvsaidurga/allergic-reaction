@@ -7,10 +7,10 @@ from summerizeTheDetails import summerize
 import os
 app = Flask(__name__)
 subscription_key = ""
-endpoint = "https://enterprisesearch.cognitiveservices.azure.com/"
+endpoint = ""
 connection_string = ''
-blob_name = 'rgchatbotapplicatioac41' # You can use the image file name or any other desired name
-container_name = 'images1'
+blob_name = '' # You can use the image file name or any other desired name
+container_name = ''
 text1=''
 text2=''
 def upload_to_blob_storage(connection_string, container_name, file_path):

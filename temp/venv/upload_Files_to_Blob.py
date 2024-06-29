@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 subscription_key = ""
 endpoint = "https://enterprisesearch.cognitiveservices.azure.com/"
-connection_string = 'DefaultEndpointsProtocol=https;AccountName=rgchatbotapplicatioac41;AccountKey=7q4zhfY8SUukPc9ojqx9IaZ21/7VHpRtiXY+oIto+iwfZGTByjWEp3+udr8TBBOVQ7yEcb//ACzc+AStNlsPXQ==;EndpointSuffix=core.windows.net'
+connection_string = ''
 blob_name = 'rgchatbotapplicatioac41' # You can use the image file name or any other desired name
 container_name = 'images1'
 text1=''
